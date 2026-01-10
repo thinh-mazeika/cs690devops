@@ -6,7 +6,7 @@ public class FactorialService
     {
         if(n<0) 
         {
-        throw new InvalidOperationException("Negative numbers don't have proper factorial");
+            throw new InvalidOperationException("Negative numbers don't have proper factorial");
         }
         if (n == 1 || n == 0)
         {
